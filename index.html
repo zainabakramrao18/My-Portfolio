@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zainab Akram Rao | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #00adb5;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #f0f0f0;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      color: #ccc;
+    }
+
+    .highlight {
+      color: #00adb5;
+    }
+
+    #about, #skills, #projects, #contact {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    #about h2, #skills h2, #projects h2, #contact h2 {
+      font-size: 2rem;
+      color: #00adb5;
+      margin-bottom: 1rem;
+    }
+
+    #about p, #skills p, #projects p, #contact p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    .skill-category {
+      margin-bottom: 2rem;
+    }
+
+    .skill-category h3 {
+      color: #00adb5;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .skill-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skill-list li {
+      background: #1e1e1e;
+      margin: 0.3rem 0;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+    }
+
+    .contact-links a {
+      display: block;
+      margin: 1rem 0;
+      font-size: 1.1rem;
+      color: #00adb5;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+
+    .project-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .project-list li {
+      margin: 1rem 0;
+    }
+
+    .project-list a {
+      color: #00adb5;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    .project-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Zainab Akram Rao</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I am <span class="highlight">Zainab Akram Rao</span>, a passionate Mathematics student with a love for problem-solving and data.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a mathematics student with a passion for solving real-world problems through logical thinking and data-driven insights. With a strong foundation in calculus, statistics, and algebra, I enjoy turning abstract ideas into practical solutions.
+    </p>
+    <p>
+      Beyond numbers, I’m interested in programming, analytics, and continuous learning. I’ve been exploring tools like Python, Excel, and GitHub to bridge the gap between mathematics and modern technology.
+    </p>
+    <p>
+      Whether it’s through clean code, data visualization, or mathematical modeling, I love finding elegant solutions to complex problems. When I’m not crunching numbers, I enjoy reading, sketching, and exploring creative business ideas.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill-category">
+      <h3>Programming Skills</h3>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>Basic JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Problem Solving Skills</h3>
+      <ul class="skill-list">
+        <li>Mathematical Modeling</li>
+        <li>Logical Thinking</li>
+        <li>Data Interpretation</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Soft Skills</h3>
+      <ul class="skill-list">
+        <li>Teamwork</li>
+        <li>Communication</li>
+        <li>Adaptability</li>
+        <li>Creative Thinking</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools & Technologies</h3>
+      <ul class="skill-list">
+        <li>Excel</li>
+        <li>Git & GitHub</li>
+        <li>Web Development</li>
+        <li>Visual Studio Code</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul class="project-list">
+      <li><a href="https://github.com/zainabakramrao18/house-device-system" target="_blank">🏠 House Device System</a></li>
+      <li><a href="https://github.com/zainabakramrao18/to-do-list" target="_blank">📝 To-Do List</a></li>
+      <li><a href="https://github.com/zainabakramrao18/Health-and-Fitness-Tracker" target="_blank">💪 Health and Fitness Tracker</a></li>
+      <li><a href="https://github.com/zainabakramrao18/Bank-Management-system" target="_blank">🏦 Bank Management System</a></li>
+      <li><a href="https://github.com/zainabakramrao18/Movie_Booking_system" target="_blank">🎬 Movie Booking System</a></li>
+      <li><a href="https://github.com/zainabakramrao18/daily-brew" target="_blank">☕ Daily Brew Website</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="mailto:zainabakramrao18@gmail.com">📧 zainabakramrao18@gmail.com</a>
+      <a href="https://www.linkedin.com/in/zainab-akram-a64136304" target="_blank">🔗 LinkedIn Profile</a>
+      <a href="https://github.com/zainabakramrao18" target="_blank">💻 GitHub Profile</a>
+    </div>
+  </section>
+</body>
+</html>
